@@ -1,0 +1,194 @@
+/* * {
+    box-sizing: border-box;
+} */
+body {
+    background-image: url("../images/concrete_seamless.png");
+    margin: 0;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 55%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: #999999;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+/* Change the link color to #cccccc on hover 
+li a:hover {
+    background-color: #cccccc;
+    color: white;
+    padding-bottom: 36px;
+}
+*/
+.active {
+    background-color: #4aaaa5;
+    font-size: 150%;
+    color: white;
+}
+
+.aboutme {
+    background-color: white;
+    width: 650px;
+    float: left;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 200px;
+}
+
+.mypic {
+    float: left;
+    height: 200px;
+    width: 200px; 
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.connect {
+    width: 270px;
+    float: right;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+.connectimages {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin-top: 13px;
+}
+
+h1, h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', "Times", "Times New Roman", "serif";
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    margin: 0 0 0 0;
+    font-size: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+p {
+    line-height: 200%;
+    color: #777777;
+}
+
+.name {
+    float: left;
+    padding-left: 432px;
+}
+
+.lastli {
+    margin-right: 432px;
+}
+
+hr {
+    height: 3px;
+    color: #dddddd;
+    background-color: #dddddd;
+    border: none;
+    }
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    font-size: 80%;
+    height: 80px;
+    border-top: 10px solid #4aaaa5;
+    padding-top: 25px;
+    }
+    
+
+.footerfont {
+    color: white;
+}
+
+form {
+    line-height: 200%;
+    color: #858383;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 92%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+
+}
+
+textarea {
+    width: 98%;
+    height: 250px;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+}
+
+input[type=button], input[type=submit] {
+    background-color: #4ba9a5;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 20%;
+    font-size: 20px;
+    height: 45px;
+}
+/* don't adjust the height in div.gallery. It will break. Adjust them individually */
+div.gallery {
+    margin: 21px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4ba9a5;
+    color: white;
+}
