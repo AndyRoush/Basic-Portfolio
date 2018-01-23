@@ -35,13 +35,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #cccccc on hover 
-li a:hover {
-    background-color: #cccccc;
-    color: white;
-    padding-bottom: 36px;
-}
-*/
 .active {
     background-color: #4aaaa5;
     font-size: 150%;
@@ -131,7 +124,7 @@ hr {
     
 
 .footerfont {
-    color: white;
+    color: rgb(218, 216, 216);
 }
 
 form {
@@ -170,7 +163,7 @@ input[type=button], input[type=submit] {
     height: 45px;
 }
 
-/* position needs to be relative, or else the span will fall below it */
+
 div.gallery {
     position: relative;
     margin: 21px;
@@ -191,11 +184,11 @@ div.gallery img {
 
 .textspan {
     position: absolute;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     background-color: #4ba9a5;
     color: white;
-    width: 250px;
-    bottom: 20px;
+    width: 240px;
+    bottom: 12px;
     left: 0;
 }
